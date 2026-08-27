@@ -6,3 +6,18 @@
 //
 // Escreva sua solução abaixo:
 
+
+class Animal {
+    emitirSom() { return "Som genérico"; }
+}
+
+class Cachorro extends Animal {
+    emitirSom() { return "Au Au!"; }
+}
+
+class Gato extends Animal {
+    emitirSom() { return "Miau!"; }
+}
+
+const animais = [new Cachorro(), new Gato()];
+animais.forEach(a => console.log(a.emitirSom())); // Au Au! | Miau!

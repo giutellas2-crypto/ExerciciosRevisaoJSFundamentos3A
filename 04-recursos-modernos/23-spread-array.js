@@ -4,3 +4,10 @@
 //
 // Escreva sua solução abaixo:
 
+const frontEnd = ["HTML", "CSS", "JavaScript", "React"];
+const backEnd = ["Node.js", "Python", "SQL"];
+
+// Unindo os dois arrays em um terceiro utilizando o operador Spread:
+const todasTecnologias = [...frontEnd, ...backEnd];
+
+console.log("Todas as tecnologias:", todasTecnologias);

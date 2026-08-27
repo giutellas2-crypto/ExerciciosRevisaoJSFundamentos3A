@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+
+const filmes = [
+    { titulo: "A Origem", genero: "Ficção Científica", duracao: 148 },
+    { titulo: "O Senhor dos Anéis", genero: "Fantasia", duracao: 201 },
+    { titulo: "Interestelar", genero: "Ficção Científica", duracao: 169 }
+];
+
+// Percorrendo o array e exibindo o título de cada filme:
+filmes.forEach(filme => {
+    console.log(filme.titulo);
+});

@@ -3,5 +3,9 @@
 // Utilize some() para verificar se existe algum produto sem estoque.
 // Mostre true ou false.
 //
-// Escreva sua solução abaixo:
+// Escreva sua solução abaixo:const estoque = [5, 3, 0, 8, 2];
+
+const temProdutoSemEstoque = estoque.some(quantidade => quantidade === 0);
+
+console.log("Existe algum produto sem estoque?:", temProdutoSemEstoque);
 

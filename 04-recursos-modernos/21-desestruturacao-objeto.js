@@ -5,3 +5,16 @@
 //
 // Escreva sua solução abaixo:
 
+
+const curso = {
+    nome: "JavaScript Moderno",
+    cargaHoraria: 40,
+    modalidade: "Online"
+};
+
+// Desestruturando o objeto em variáveis individuais:
+const { nome, cargaHoraria, modalidade } = curso;
+
+console.log("Nome do Curso:", nome);
+console.log("Carga Horária:", cargaHoraria, "horas");
+console.log("Modalidade:", modalidade);

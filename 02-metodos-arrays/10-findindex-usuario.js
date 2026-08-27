@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const usuarios = ["Ana", "Carlos", "Beatriz", "Daniel"];
+
+const indiceBeatriz = usuarios.findIndex(usuario => usuario === "Beatriz");
+
+console.log("Índice de Beatriz:", indiceBeatriz);

@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const idades = [19, 22, 18, 25, 30];
+
+const todosMaiores = idades.every(idade => idade >= 18);
+
+console.log("Todas as pessoas são maiores de idade?:", todosMaiores);

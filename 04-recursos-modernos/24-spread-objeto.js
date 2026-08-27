@@ -5,3 +5,17 @@
 //
 // Escreva sua solução abaixo:
 
+
+const usuario = {
+    nome: "Harry Styles",
+    email: "harrystyles@email.com"
+};
+
+// Criando um novo objeto com as propriedades existentes + nova propriedade:
+const usuarioAtivo = {
+    ...usuario,
+    ativo: true
+};
+
+console.log("Objeto original:", usuario);
+console.log("Novo objeto:", usuarioAtivo);

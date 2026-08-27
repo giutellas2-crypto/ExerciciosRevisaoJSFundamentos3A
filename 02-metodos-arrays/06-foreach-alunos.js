@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const alunos = ["Ana", "Bruno", "Carla", "Daniel", "Eduarda"];
+
+alunos.forEach((nome, indice) => {
+    console.log(`${indice + 1} - ${nome}`);
+});

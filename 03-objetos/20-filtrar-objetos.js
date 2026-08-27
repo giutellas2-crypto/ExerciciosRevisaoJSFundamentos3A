@@ -5,3 +5,15 @@
 //
 // Escreva sua solução abaixo:
 
+
+const produtos = [
+    { nome: "Camiseta", preco: 50 },
+    { nome: "Tênis", preco: 250 },
+    { nome: "Caneca", preco: 30 },
+    { nome: "Mochila", preco: 180 },
+    { nome: "Livro", preco: 45 }
+];
+
+const produtosBaratos = produtos.filter(produto => produto.preco <= 100);
+
+console.log("Produtos que custam até R$ 100:", produtosBaratos);

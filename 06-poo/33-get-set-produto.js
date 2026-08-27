@@ -5,3 +5,24 @@
 //
 // Escreva sua solução abaixo:
 
+
+class Produto {
+    #preco = 0;
+
+    constructor(nome, preco) {
+        this.nome = nome;
+        this.preco = preco; // Usa o setter
+    }
+    get preco() {
+        return this.#preco;
+    }
+    set preco(novoPreco) {
+        if (novoPreco >= 0) this.#preco = novoPreco;
+    }
+}
+// Teste:
+const p1 = new Produto("Mouse", 100);
+p1.preco = 150;  // Atualiza via setter
+p1.preco = -50;  // Ignorado pelo setter
+
+console.log(p1.preco); // 150

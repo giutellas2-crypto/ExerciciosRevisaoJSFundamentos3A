@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+function verificarAprovacao(media) {
+    if (media >= 7) {
+        return "Aprovado";
+    } else {
+        return "Reprovado";
+    }
+}
+
+// Exemplo de uso e exibição no console:
+console.log(verificarAprovacao(8.5)); // Retorna: Aprovado
+console.log(verificarAprovacao(5.0)); // Retorna: Reprovado
